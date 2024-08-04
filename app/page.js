@@ -1,4 +1,4 @@
-// page.js
+// app/page.js
 'use client'
 
 import { firestore } from '@/firebase'
@@ -182,6 +182,20 @@ export default function Home() {
       <Typography variant="h3" sx={{ my: 2 }}>
         Pantry Inventory
       </Typography>
+      <Box
+        sx={{
+          backgroundColor: '#f5f5f5',
+          padding: 2,
+          borderRadius: 2,
+          boxShadow: 2,
+          textAlign: 'center',
+          mb: 4,
+        }}
+      >
+        <Typography variant="body1">
+          Summary: This project is designed to help you keep track of your pantry items. You can add, remove, and search for items in your inventory easily.
+        </Typography>
+      </Box>
       <Button
         variant="contained"
         startIcon={<AddIcon />}
