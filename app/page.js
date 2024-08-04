@@ -118,7 +118,7 @@ export default function Home() {
       alignItems={'center'}
       padding={2}
       sx={{
-        background: 'linear-gradient(135deg, #ece9e6 25%, #ffffff 100%)',
+        backgroundColor: '#b3d9ff',
       }}
     >
       <Snackbar
@@ -179,12 +179,12 @@ export default function Home() {
           </Box>
         </Modal>
       </CSSTransition>
-      <Typography variant="h3" sx={{ my: 2 }}>
+      <Typography variant="h1" sx={{ my: 2 }}>
         Pantry Inventory
       </Typography>
       <Box
         sx={{
-          backgroundColor: '#f5f5f5',
+          backgroundColor: '#b3d9ff',
           padding: 2,
           borderRadius: 2,
           boxShadow: 2,
@@ -192,7 +192,7 @@ export default function Home() {
           mb: 4,
         }}
       >
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
           Summary: This project is designed to help you keep track of your pantry items. You can add, remove, and search for items in your inventory easily.
         </Typography>
       </Box>
